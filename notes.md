@@ -1,8 +1,8 @@
-Nav bar has only a few, Contact, About, Book Now
+Client wants nav bar to only a few; Contact, About, Book Now
 
-At checkout, additional service offer before completion
+At checkout, additional service offer popup before completion
 
-Stripe for secure payments integrated
+Stripe for secure payments integrated seamlessly 
 
 Sun Bum heavy inspiration
 ------------------------------------------
@@ -19,7 +19,10 @@ Darker Green:  016855
 
 Updated Logo on canva
 --------------------------------------------
-Need to connect a new SQL Database to this backend, then work on different endpoints for what we wanna do. 
+1. Need to connect a new SQL Database to this backend, then work on different endpoints for what we wanna do. 
+        1a. SQL Database has been created, and one piece of dummy data has been entered.
+        1b. Need to connect it to the server now. 
+
 I think we can make it possible for the client to go in and manipulate photos etc on his own using admin properties.
 Only need to make one kind of person able to log in - THE ADMINS.
 
