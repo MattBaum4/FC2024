@@ -1,10 +1,11 @@
-const MYSQL = require("mysql");
+const MYSQL = require("mysql2");
 
-const db = MYSQL.createPool({
-    host: "127.0.0.1",
-    user: "root",
-    password: "FCAdmin123#!",
-    database: "FCDB",
-    multipleStatements: true,
-})
-module.exports = db;
+const pool = MYSQL.createPool({
+  host: "127.0.0.1",
+  user: "root",
+  password: "FCAdmin123#!",
+  database: "fc2024",
+  multipleStatements: true,
+});
+
+module.exports = pool;
